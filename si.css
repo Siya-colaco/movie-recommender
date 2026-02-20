@@ -1,0 +1,122 @@
+st.markdown("""
+<style>
+
+/* FULL PAGE BACKGROUND */
+html, body, [class*="css"]  {
+    background-color: #0b0b0b !important;
+}
+
+/* REMOVE STREAMLIT WHITE AREA */
+.main {
+    background-color: #0b0b0b;
+}
+
+/* HERO HEADER STRIP */
+.header-box {
+    background: linear-gradient(to right, #000000, #140000, #000000);
+    padding: 35px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+    box-shadow: 0 0 25px rgba(229,9,20,0.3);
+}
+
+/* MAIN TITLE */
+h1 {
+    color: #E50914;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: white;
+    margin-top: 25px;
+}
+
+/* SELECT BOX TEXT */
+.stSelectbox label {
+    color: #dcdcdc;
+    font-size: 18px;
+}
+
+/* DROPDOWN BOX */
+.stSelectbox div {
+    background-color: #1a1a1a !important;
+    color: white !important;
+}
+
+/* BUTTON */
+.stButton>button {
+    background: linear-gradient(90deg, #E50914, #b20710);
+    color: white;
+    border-radius: 14px;
+    height: 55px;
+    width: 240px;
+    font-size: 19px;
+    border: none;
+    transition: 0.3s;
+    box-shadow: 0 0 12px rgba(229,9,20,0.5);
+}
+
+/* BUTTON HOVER */
+.stButton>button:hover {
+    background: linear-gradient(90deg, #ff1f2d, #E50914);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(229,9,20,0.8);
+}
+
+/* MOVIE GRID AREA */
+.block-container {
+    padding-top: 2rem;
+}
+
+/* MOVIE CARD */
+.movie-card {
+    background: linear-gradient(160deg, #1c1c1c, #111);
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    margin: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.8);
+    transition: 0.35s;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* CARD HOVER EFFECT */
+.movie-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 30px rgba(229,9,20,0.9);
+    border: 1px solid rgba(229,9,20,0.5);
+}
+
+/* STREAMLIT TEXT COLOR FIX */
+p, span, div {
+    color: white;
+}
+
+/* REMOVE DEFAULT TOP SPACE */
+.css-18e3th9 {
+    padding-top: 1rem;
+}
+
+/* SCROLLBAR NETFLIX STYLE */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #111;
+}
+::-webkit-scrollbar-thumb {
+    background: #E50914;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ff2e2e;
+}
+
+</style>
+""", unsafe_allow_html=True)
